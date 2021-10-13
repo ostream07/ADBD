@@ -4,7 +4,7 @@ Por todo ello, es necesario establecer nuevas soluciones eficaces, estratégicas
 
 Estos organismos generan documentación que distribuyen en fichas para las distintas soluciones propuestas dependiendo del terreno al que se tengan que enfrentar. Por ello, como apoyo a estas organizaciones y personal se quiere tener en cuenta una serie de criterios fundamentales a la hora de abordar este tipo de problemáticas. 
 
-Nuestra propuesta consistirá en dar soporte con una herramienta capaz de facilitar el manejo de la información que estará clasificada y dividida. Podemos hablar de:
+Es necesaria una herramienta capaz de facilitar el manejo de la información que estará clasificada y dividida. Podemos hablar de:
 
 * Métodos de recogida de agua: 
     - Agua subterránea: pozo excavado, pozo perforado con bomba, etc. 
