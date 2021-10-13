@@ -6,8 +6,9 @@ Estos organismos generan documentación que distribuyen en fichas para las disti
 
 Nuestra propuesta consistirá en dar soporte con una herramienta capaz de facilitar el manejo de la información que estará clasificada y dividida. Podemos hablar de:
 
-* Método de recogida de agua (Agua subterránea: pozo excavado, pozo perforado con bomba… 
-* Agua de lluvia: captación de agua de lluvia en tejados... ).
+* Métodos de recogida de agua: 
+    - Agua subterránea: pozo excavado, pozo perforado con bomba, etc. 
+    - Agua de lluvia: captación de agua de lluvia en tejados, etc.
 * Uso de bombas y materiales y su correcta instalación y mantenimiento.
 * Situación del agua (niveles de contaminación).
 * Tipo de terreno y sus condiciones (humedad, capacidad de drenaje del agua).
