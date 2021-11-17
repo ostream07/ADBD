@@ -210,19 +210,16 @@ END;
 $BODY$
 LANGUAGE plpgsql;
 
-				-- Create triggers
---DROP TRIGGER trigger_crear_email_before_insert ON clientes;
+-- Create triggers
+DROP TRIGGER IF EXISTS trigger_crear_email_before_insert ON clientes;
 CREATE TRIGGER trigger_crear_email_before_insert BEFORE INSERT ON clientes
 FOR EACH ROW EXECUTE PROCEDURE crear_email('gmail.com');
 
---DROP TRIGGER trigger_actualizar_stock_after_insert ON stock_en_zona;
-CREATE TRIGGER trigger_actualizar_stock_after_insert AFTER INSERT ON stock_en_zona
+DROP TRIGGER IF EXISTS trigger_actualizar_stock_after_insert_or_update ON stock_en_zona;
+CREATE TRIGGER trigger_actualizar_stock_after_insert AFTER INSERT OR UPDATE ON stock_en_zona
 FOR EACH ROW EXECUTE PROCEDURE actualizar_stock();
 
---DROP TRIGGER trigger_actualizar_stock_after_update ON stock_en_zona;
-CREATE TRIGGER trigger_actualizar_stock_after_update AFTER UPDATE ON stock_en_zona
-FOR EACH ROW EXECUTE PROCEDURE actualizar_stock();
-
+DROP TRIGGER IF EXISTS trigger_check_municipio_before_insert ON viveros:
 CREATE TRIGGER trigger_check_municipio_before_insert BEFORE INSERT ON viveros
 FOR EACH ROW EXECUTE PROCEDURE check_municipio();
 
